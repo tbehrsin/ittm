@@ -1,0 +1,16 @@
+scalar Date
+
+type User {
+  id: ID!
+  email: String!
+  region: String!
+  blocked: Boolean!
+  status: String!
+  createdAt: Date!
+  role: Role!
+}
+
+extend type Query {
+  users: [User!]!
+  user(id: Int!): User
+}

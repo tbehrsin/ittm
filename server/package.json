@@ -1,0 +1,31 @@
+{
+  "name": "@ittm/server",
+  "version": "1.0.0",
+  "description": "ITTM Tech Test Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -e js,graphql -x babel-node src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbehrsin/ittm.git"
+  },
+  "author": "Tim Behrsin <tim@behrsin.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tbehrsin/ittm/issues"
+  },
+  "homepage": "https://github.com/tbehrsin/ittm#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "glob": "^7.1.6",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  }
+}
