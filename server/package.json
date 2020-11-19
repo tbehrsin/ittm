@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ITTM Tech Test Server",
   "main": "src/index.js",
+  "private": true,
   "scripts": {
     "start": "nodemon -e js,graphql -x babel-node src/server",
     "test": "echo \"Error: no test specified\" && exit 1"

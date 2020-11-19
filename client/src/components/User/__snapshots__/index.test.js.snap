@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User renders without crashing 1`] = `
+<DocumentFragment>
+  <table>
+    <tbody>
+      <tr
+        class="container"
+      >
+        <td>
+          123
+        </td>
+        <td>
+          support_admin@example.com
+        </td>
+        <td>
+          UK
+        </td>
+        <td>
+          false
+        </td>
+        <td>
+          ACTIVE
+        </td>
+        <td>
+          Monday 6th April 2020
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          test role
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

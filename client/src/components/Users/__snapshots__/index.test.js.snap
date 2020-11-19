@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users renders without crashing 1`] = `
+<DocumentFragment>
+  <table
+    class="container"
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Region
+        </th>
+        <th>
+          Blocked
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          Created
+        </th>
+        <th>
+          Role ID
+        </th>
+        <th>
+          Role Name
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Users renders without crashing 2`] = `
+<DocumentFragment>
+  <table
+    class="container"
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          Email
+        </th>
+        <th>
+          Region
+        </th>
+        <th>
+          Blocked
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          Created
+        </th>
+        <th>
+          Role ID
+        </th>
+        <th>
+          Role Name
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="container"
+      >
+        <td>
+          123
+        </td>
+        <td>
+          support_admin@example.com
+        </td>
+        <td>
+          UK
+        </td>
+        <td>
+          false
+        </td>
+        <td>
+          ACTIVE
+        </td>
+        <td>
+          Monday 6th April 2020
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          test role
+        </td>
+      </tr>
+      <tr
+        class="container"
+      >
+        <td>
+          456
+        </td>
+        <td>
+          yolo.swaggins@example.com
+        </td>
+        <td>
+          UK
+        </td>
+        <td>
+          false
+        </td>
+        <td>
+          PENDING
+        </td>
+        <td>
+          Monday 6th April 2020
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          test role
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
