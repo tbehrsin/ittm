@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User #user 1`] = `
+Object {
+  "user": Object {
+    "blocked": false,
+    "createdAt": "2020-04-06T11:07:42.549Z",
+    "email": "yolo.swaggins@example.com",
+    "id": "456",
+    "region": "UK",
+    "role": Object {
+      "id": "1",
+      "name": "test role",
+    },
+    "status": "PENDING",
+  },
+}
+`;
+
+exports[`User #user not found 1`] = `
+Object {
+  "user": null,
+}
+`;
+
+exports[`User #users 1`] = `
+Object {
+  "users": Array [
+    Object {
+      "blocked": false,
+      "createdAt": "2020-04-06T11:07:42.549Z",
+      "email": "support_admin@example.com",
+      "id": "123",
+      "region": "UK",
+      "role": Object {
+        "id": "1",
+        "name": "test role",
+      },
+      "status": "ACTIVE",
+    },
+    Object {
+      "blocked": false,
+      "createdAt": "2020-04-06T11:07:42.549Z",
+      "email": "yolo.swaggins@example.com",
+      "id": "456",
+      "region": "UK",
+      "role": Object {
+        "id": "1",
+        "name": "test role",
+      },
+      "status": "PENDING",
+    },
+  ],
+}
+`;

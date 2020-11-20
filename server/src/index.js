@@ -12,7 +12,7 @@ const typeDefs = globSync('**/*.graphql', {
   gql(fs.readFileSync(path.resolve(resolversPath, fileName)).toString('utf8'))
 );
 
-const resolvers = globSync('**/*.js', { cwd: resolversPath }).map(
+const resolvers = globSync('**/!(*.test).js', { cwd: resolversPath }).map(
   fileName => require(path.resolve(resolversPath, fileName)).default
 );
 
